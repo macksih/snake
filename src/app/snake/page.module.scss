@@ -1,0 +1,65 @@
+.page {
+    box-sizing: border-box;
+  }
+  .board {
+    font-size: 5px;
+    box-sizing: border-box;
+    margin: 100px auto;
+    width: 505px;
+    height: 505px;
+    background-color: aqua;
+    border: solid 2px grey;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .empty {
+    height: 10px;
+    width: 10px;
+    border: none;
+    background-color: none;
+  }
+  
+  .snake {
+    height: 10px;
+    width: 10px;
+    border: 1px solid darkgreen;
+    background-color: green;
+  }
+  
+  .feed {
+    height: 10px;
+    width: 10px;
+    border: 1px solid darkred;
+    background-color: red;
+  }
+  
+  .eaten {
+    height: 10px;
+    width: 10px;
+    border: 1px solid darkorange;
+    background-color: orange;
+  }
+  
+  .gameOverStyles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gameOverButtonStyles {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+  }
